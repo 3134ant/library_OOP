@@ -1,0 +1,199 @@
+--- !ruby/object:Library
+authors:
+- !ruby/object:Author
+  name: Andy Weir
+  biography: Biography of Andy Weir
+- !ruby/object:Author
+  name: Erich Maria Remarque
+  biography: Biography of Erich Maria Remarque
+- !ruby/object:Author
+  name: Mikhail Sholokhov
+  biography: Biography of Mikhail Sholokhov
+- !ruby/object:Author
+  name: Michael Bulgakov
+  biography: Biography of Michael Bulgakov
+- !ruby/object:Author
+  name: Paulo Coelho
+  biography: Biography of Paulo Coelho
+books:
+- !ruby/object:Book
+  title: Martian
+  author: Andy Weir
+- !ruby/object:Book
+  title: Triumphal Arch
+  author: Erich Maria Remarque
+- !ruby/object:Book
+  title: Virgin Soil Upturned
+  author: Mikhail Sholokhov
+- !ruby/object:Book
+  title: Quiet Flows the Don
+  author: Mikhail Sholokhov
+- !ruby/object:Book
+  title: Dog's heart
+  author: Michael Bulgakov
+- !ruby/object:Book
+  title: The Master and Margarita
+  author: Michael Bulgakov
+- !ruby/object:Book
+  title: The White Guard
+  author: Michael Bulgakov
+- !ruby/object:Book
+  title: Alchemist
+  author: Paulo Coelho
+- !ruby/object:Book
+  title: Eleven minutes
+  author: Paulo Coelho
+orders:
+- !ruby/object:Order
+  book: Martian
+  reader: Test User 5
+  date: 01.05.2016
+- !ruby/object:Order
+  book: Martian
+  reader: Test User 5
+  date: 02.05.2016
+- !ruby/object:Order
+  book: Martian
+  reader: Test User 3
+  date: 01.05.2016
+- !ruby/object:Order
+  book: Triumphal Arch
+  reader: Test User 5
+  date: 21.05.2016
+- !ruby/object:Order
+  book: Triumphal Arch
+  reader: Test User 5
+  date: 21.05.2016
+- !ruby/object:Order
+  book: Triumphal Arch
+  reader: Test User 5
+  date: 11.05.2016
+- !ruby/object:Order
+  book: Triumphal Arch
+  reader: Test User 5
+  date: 01.05.2016
+- !ruby/object:Order
+  book: Alchemist
+  reader: Test User 1
+  date: 09.05.2016
+- !ruby/object:Order
+  book: Alchemist
+  reader: Test User 5
+  date: 09.05.2016
+- !ruby/object:Order
+  book: Alchemist
+  reader: Test User 5
+  date: 08.05.2016
+- !ruby/object:Order
+  book: Alchemist
+  reader: Test User 9
+  date: 08.05.2016
+- !ruby/object:Order
+  book: Alchemist
+  reader: Test User 10
+  date: 08.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+- !ruby/object:Order
+  book: Dog's heart
+  reader: Test User 6
+  date: 10.05.2016
+readers:
+- !ruby/object:Reader
+  name: Test User 1
+  email: test_user_1@test.com
+  city: Sity 1
+  street: Street 1
+  house: '1'
+- !ruby/object:Reader
+  name: Test User 2
+  email: test_user_2@test.com
+  city: Sity 2
+  street: Street 2
+  house: '2'
+- !ruby/object:Reader
+  name: Test User 3
+  email: test_user_3@test.com
+  city: Sity 3
+  street: Street 3
+  house: '3'
+- !ruby/object:Reader
+  name: Test User 4
+  email: test_user_4@test.com
+  city: Sity 4
+  street: Street 4
+  house: '4'
+- !ruby/object:Reader
+  name: Test User 5
+  email: test_user_5@test.com
+  city: Sity 5
+  street: Street 5
+  house: '5'
+- !ruby/object:Reader
+  name: Test User 6
+  email: test_user_6@test.com
+  city: Sity 6
+  street: Street 6
+  house: '6'
+- !ruby/object:Reader
+  name: Test User 7
+  email: test_user_7@test.com
+  city: Sity 7
+  street: Street 7
+  house: '7'
+- !ruby/object:Reader
+  name: Test User 8
+  email: test_user_8@test.com
+  city: Sity 8
+  street: Street 8
+  house: '8'
+- !ruby/object:Reader
+  name: Test User 9
+  email: test_user_9@test.com
+  city: Sity 9
+  street: Street 9
+  house: '9'
+- !ruby/object:Reader
+  name: Test User 10
+  email: test_user_10@test.com
+  city: Sity 10
+  street: Street 10
+  house: '10'
