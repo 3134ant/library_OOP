@@ -2,12 +2,11 @@ require './models/Author.rb'
 require './models/Book.rb'
 require './models/Reader.rb'
 require './models/Order.rb'
-require './models/Library.rb'
 require 'YAML'
 
 class Library
   attr_accessor :books, :orders, :readers, :authors
-  def initialize()
+  def initialize
     @orders = []
     @books = []
     @readers = []
