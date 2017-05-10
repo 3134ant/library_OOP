@@ -1,3 +1,10 @@
+require './models/Author.rb'
+require './models/Book.rb'
+require './models/Reader.rb'
+require './models/Order.rb'
+require './models/Library.rb'
+require 'YAML'
+
 class Library
   attr_accessor :books, :orders, :readers, :authors
   def initialize()
@@ -6,15 +13,7 @@ class Library
     @readers = []
     @authors = []
   end
-end
-
-require './models/Author.rb'
-require './models/Book.rb'
-require './models/Reader.rb'
-require './models/Order.rb'
-require './models/Library.rb'
-require 'YAML'
-
+  
   def test_data_load
     @Lib.books << Book.new("Martian", "Andy Weir")
     @Lib.authors << Author.new("Andy Weir","Biography of Andy Weir")
@@ -96,8 +95,7 @@ require 'YAML'
   end
 end
 
-end
-
+  
 index = Controllers.new
 index.test_data_load
 
