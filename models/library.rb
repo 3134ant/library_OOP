@@ -15,11 +15,6 @@ require './models/Order.rb'
 require './models/Library.rb'
 require 'YAML'
 
-class Controllers
-  def initialize
-    @Lib = Library.new
-  end
-
   def test_data_load
     @Lib.books << Book.new("Martian", "Andy Weir")
     @Lib.authors << Author.new("Andy Weir","Biography of Andy Weir")
@@ -73,11 +68,6 @@ class Controllers
 
   def save_library_data_to_file
     File.write("./data.yaml", @Lib.to_yaml)
-  end
-  
-  class Controllers
-  def initialize
-    @lib = get_all_library_data_from_file
   end
 
   def who_often_takes_the_books
